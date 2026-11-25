@@ -1,0 +1,12 @@
+prepend:
+  - name: "美国出口-SOCKS5"
+    type: socks5
+    server: "192.0.2.10"
+    port: 1080
+    username: "REPLACE_WITH_SOCKS5_USERNAME"
+    password: "REPLACE_WITH_SOCKS5_PASSWORD"
+    udp: true
+    dialer-proxy: "前置选择"
+
+append: []
+delete: []
